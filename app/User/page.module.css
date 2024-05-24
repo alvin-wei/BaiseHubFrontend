@@ -1,0 +1,16 @@
+.LoginForm {
+  height: rem(150px);
+  align-items: center;
+  position: relative;
+  width: 100%;
+  display: block;
+  /* margin: auto; */
+  padding: 0%;
+  max-width: var(--container-size);
+}
+
+@media (min-width: em(768px)) {
+  .LoginForm {
+    width: 30%;
+  }
+}
